@@ -3,7 +3,7 @@ game Hangman(RUS) - Hangman is a classic paper and pencil game.
 The idea of the gallows may be a little morbid, but it also adds to the excitement of the game, especially for boys.
 Everyone wants to save the poor person from a grim fate!
 
-##RUBY
+## RUBY
 this program was made with ruby, so u will need to open it on ruby
 
 ## HOW TO PLAY:

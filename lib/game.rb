@@ -8,7 +8,7 @@ class Game
   # загаданного слова и пустой массив для дальнейшего сбора в него вводимых
   # букв.
   def initialize(word)
-    @letters = word.chars
+    @letters = word.upcase.chars
     @user_guesses = []
   end
 
@@ -70,7 +70,7 @@ class Game
 
   # Нормализует все слово
   def normalized_letters
-    @letters.map{ |letter| normalize_letter(letter) }
+    @letters.map { |letter| normalize_letter(letter) }
   end
 
   # Меняет Ё на Е и Й на И

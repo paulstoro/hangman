@@ -4,8 +4,8 @@ class ConsoleInterface
   # файла.
   FIGURES =
     Dir["#{__dir__}/../data/figures/*.txt"].
-    sort.
-    map { |file_name| File.read(file_name) }
+      sort.
+      map { |file_name| File.read(file_name) }
 
   # На вход конструктор класса ConsoleInterface принимает экземпляр класса Game.
   #
